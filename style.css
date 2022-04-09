@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+     padding-top: 10em;
+     
+    align-items: center;
+}
+
+.heading, .result, .guess{
+   
+    max-width: max-content;
+    margin-left: 40rem;
+    color: blue;
+    background-color: red;
+    border-radius: 35px;
+    font-weight: bold;
+    padding: 10px 8px;
+  
+    
+}
+
+.heading, #count, #guess {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 1em;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: aqua;
+    color: brown;
+}
+.btn, #guess {
+    padding: 15px 32px;
+    margin: 14px 7px;
+}
+
+#guess {
+   outline: 0; 
+   border-radius: 6px;
+   background-color: aqua; 
+   border: none;
+
+}
+
+
+
+
+ 
